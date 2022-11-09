@@ -1,4 +1,4 @@
-#send notification and receive notification   
+## send notification and receive notification   
 
 ![image1](https://github.com/Jacob-dvlp/send-notification-and-receive-notification/blob/master/push_firebase.png)
 
