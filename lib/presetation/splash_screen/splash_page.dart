@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:push_notification/constants/url_api.dart';
 import 'package:push_notification/presetation/home/home_page.dart';
 
 class SplashPage extends StatefulWidget {
@@ -40,9 +39,6 @@ class _SplashPageState extends State<SplashPage> {
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset(
-                  background,
-                ),
                 SizedBox(
                   height: 30,
                 ),

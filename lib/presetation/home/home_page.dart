@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:push_notification/constants/url_api.dart';
 import 'package:push_notification/request_notification/request_notification.dart';
 import 'package:push_notification/src/repository/send_notification_repository_imp.dart';
 
@@ -13,7 +12,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final title = TextEditingController();
   final body = TextEditingController();
-  final token = TextEditingController(text: tokenDevice);
+  final token = TextEditingController(text: "");
   bool isSend = false;
 
   Future send() async {
